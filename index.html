@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mi</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Mi Hoja de Vida y Presentación Personal</h1>
+    <h2>Estudiante de Ingeniería y Aprendiz de HTML</h2>
+
+    <p>Hola, mi nombre es juan david rios. Soy un estudiante que está empezando a explorar el mundo de la programación y el desarrollo web. Este es mi primer ejercicio, donde aplico la estructura básica de HTML.</p>
+
+    <hr> <h3>Mi Perfil y Redes</h3>
+    
+    <img src="mi_foto.jpg" alt="Mi Foto Personal" width="200" height="250"> 
+
+    <h4>Enlaces Importantes</h4>
+    <ul>
+        <li><a href="https://github.com/ochoariosdavidjuan-crypto" target="_blank">Mi Perfil de GitHub</a></li>
+        <li><a href="https://www.facebook.com/juandavid.riosochoa.3?locale=es_LA" target="_blank">Mi facebook</a></li>
+    </ul>
+
+    <hr>
+
+    <h3>Organización Personal</h3>
+    
+    <h4>Mis Pasatiempos (ul)</h4>
+    <ul>
+        <li>Jugar online.</li>
+        <li>Ver series y peliculas.</li>
+        <li>jugar futbol.</li>
+    </ul>
+
+    <h4>Tareas Pendientes (ol)</h4>
+    <ol>
+        <li>Hacer oficio (Prioridad alta). [cite: 124]</li>
+        <li>Estudiar para pasr el seminario.</li>
+        <li>Terminar mi portafolio .</li>
+    </ol>
+
+    <h3>Horario Semanal</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Actividad Planificada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>trabajar</td>
+            </tr>
+            <tr>
+                <td>martes</td>
+                <td>trabajar</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>trabajar</td>
+            </tr>
+            <tr>
+                <td>jueves</td>
+                <td>trabajar</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>Terminar de trabajar</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+
+    <h3>Formulario de Contacto</h3>
+    <form action="/enviar-contacto" method="POST">
+        
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre_contacto" required><br><br>
+
+        <label for="razon">Motivo del contacto:</label><br>
+        <input type="text" id="razon" name="motivo" required><br><br>
+
+        <label for="correo">Correo Electrónico:</label><br>
+        <input type="email" id="correo" name="email_contacto" required><br><br>
+
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+    
+    <br><br><br>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/*
+    ESTILOS CSS PARA EL LABORATORIO 1
+    Tema: Azul y Gris (Fácil de leer)
+*/
+
+/* 1. Estilos Globales: Aplicados a toda la página (BODY) */
+body {
+    /* Color de fondo: un gris muy claro (casi blanco) */
+    background-color: #f4f4f9; 
+    /* Tipo de letra fácil de leer */
+    font-family: 'Arial', sans-serif;
+    /* Centra el contenido en la pantalla */
+    margin: 0 auto;
+    /* Ancho máximo para que no se vea gigante en pantallas grandes */
+    max-width: 900px; 
+    padding: 20px;
+}
+
+/* 2. Estilos de Encabezados */
+h1 {
+    /* Color principal de texto: Azul oscuro */
+    color: #1a4a75; 
+    /* Separación superior */
+    margin-top: 30px;
+    /* Pone una línea fina debajo del título principal */
+    border-bottom: 2px solid #5a9bd4; 
+    padding-bottom: 5px;
+}
+
+h2, h3, h4 {
+    color: #333;
+}
+
+/* 3. Estilos de Contenedores y Párrafos */
+#about-me {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* 4. Estilos de Imagen y Listas */
+img {
+    border-radius: 50%; 
+    border: 3px solid #5a9bd4; 
+    display: block; 
+    margin: 20px 0;
+}
+
+/* Estilo para las listas (Pasatiempos y Tareas) */
+ul, ol {
+    background-color: #e9f0f9; 
+    padding: 20px;
+    border-left: 5px solid #5a9bd4; 
+    list-style-position: inside;
+}
+
+/* 5. Estilos de Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0;
+}
+
+thead {
+    background-color: #1a4a75; 
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f8ff;
+}
+
+
+/* 6. Estilos de Formulario (Paso 6) */
+.contact-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+input[type="text"], 
+input[type="email"] {
+    width: 95%; 
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #5a9bd4; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1a4a75;  
+}
