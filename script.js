@@ -9,7 +9,7 @@ form.addEventListener("submit", (event) => {
 
     console.log("Nombre:", nombre);
     console.log("Motivo del contacto:", motivo);
-    console.log("Correo Electronico:", correo );
+    console.log("Correo Electronico:", correo);
 
     alert("Hola " + nombre + ", su correo electronico es " + correo + " y su motivo de contacto es: \n" + motivo);
 });
