@@ -3,13 +3,13 @@ const form = document.querySelector(".contact-form form");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    const nombre = document.getElementById('nombre').value;
-    const descripcion = document.getElementById('descripcion').value;
-    const correo = document.getElementById('correo').value;
+    const nombre = document.getElementById('Nombre:').value;
+    const motivo = document.getElementById('Motivo del contacto:').value;
+    const correo = document.getElementById('Correo Electrónico:').value;
 
     console.log("Nombre:", nombre);
-    console.log("Descripción:", descripcion);
-    console.log("Correo:", correo);
+    console.log("Motivo del contacto:", motivo);
+    console.log("Correo Electronico:", correo );
 
-    alert("Hola " + nombre + ", su correo es " + correo + " y su motivo de contacto es: \n" + descripcion);
+    alert("Hola " + nombre + ", su correo electronico es " + correo + " y su motivo de contacto es: \n" + motivo);
 });
